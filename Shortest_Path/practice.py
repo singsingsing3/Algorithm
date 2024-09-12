@@ -4,7 +4,7 @@ import sys
 INF=int(1e9)
 
 #노드 수, 간선 수, 시작노드 입력받기
-INF=int(1e9)
+
 node_num,road_num,start_node=map(int,sys.stdin.readline().rstrip().split())
 
 #graph 초기화, 거리 table 생성
