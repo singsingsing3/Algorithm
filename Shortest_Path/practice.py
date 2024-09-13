@@ -29,7 +29,7 @@ def dijkstra(start):
             cost = dist+i[1]
             if cost < distance[i[0]]:
                 distance[i[0]] = cost
-                heapq.heappush((cost,i[0]))
+                heapq.heappush(q,(cost,i[0]))
 
 #Floyd-Warshal
 INF=int(1e9)
